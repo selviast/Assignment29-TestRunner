@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="SmokeTestSuite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+
+    <test name="LoginTests">
+        <classes>
+            <class name="dibimbing.test.LoginTest"/>
+        </classes>
+    </test>
+
+    <test name="HomePageTests">
+        <classes>
+            <class name="dibimbing.test.HomePageValidationTest"/>
+        </classes>
+    </test>
+</suite>
